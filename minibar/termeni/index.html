@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="ro">
+  <head>
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data: https:; font-src 'self'; connect-src 'self' https://*.supabase.co; base-uri 'self'; form-action 'self'; object-src 'none'" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#1a1613" />
+    <!-- Adresa paginii (cu cheia comenzii, pe /minibar/plata) nu pleacă spre alte site-uri. -->
+    <meta name="referrer" content="strict-origin-when-cross-origin" />
+    <!-- Demo: motoarele de căutare să nu-l indexeze. De scos la lansarea reală. -->
+    <meta name="robots" content="noindex, nofollow" />
+    <title>Minibar — Epic Boutique Sibiu</title>
+    <link rel="icon" type="image/svg+xml" href="/epic-minibar-demo/favicon.svg" />
+    <!-- Fonturile (Fraunces, Inter) sunt incluse în aplicație (src/main.tsx), nu luate de la Google:
+         așa IP-ul oaspetelui nu ajunge la Google (GDPR) și politica CSP rămâne strictă. -->
+    <script type="module" crossorigin src="/epic-minibar-demo/assets/index-DEw_VIMk.js"></script>
+    <link rel="stylesheet" crossorigin href="/epic-minibar-demo/assets/index-BFwENVxA.css">
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
